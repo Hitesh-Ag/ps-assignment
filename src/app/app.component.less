@@ -81,9 +81,15 @@ header {
                     border-radius: 4px;
                     cursor: pointer;
                     text-align: center;
+                    min-width: 35%;
+                    padding: 3% 2%;
     
                     &.active {
                         background-color: #7cba01;
+                    }
+
+                    &:nth-child(odd) {
+                        margin-right: 20%;
                     }
                 }
             }
@@ -162,16 +168,10 @@ footer {
         margin: 0 2% 15px 10px;
 
         .filter-item-container {
-            padding: 2%;
+            padding: 3% 2%;
 
             .filter-item {
-                min-width: 40%;
-                margin-bottom: 3%;
-                padding: 1% 2%;
-
-                &:nth-child(odd) {
-                    margin-right: 10%;
-                }
+                margin-bottom: 4%;
             }
         }
     }
@@ -194,19 +194,13 @@ footer {
     .filter {
         width: 30%;
         margin: 0 10px 15px 10px;
-        height: calc(100vh - 80px);
+        height: 100vh;
 
         .filter-item-container {
             padding: 5%;
 
             .filter-item {
-                min-width: 43%;
-                margin-bottom: 5%;
-                padding: 3% 2%;
-
-                &:nth-child(odd) {
-                    margin-right: 5%;
-                }
+                margin-bottom: 7%;
             }
         }
     }
@@ -229,19 +223,13 @@ footer {
     .filter {
         width: 15%;
         margin: 0 10px 15px 10px;
-        height: calc(100vh - 115px);
+        height: calc(100vh - 30px);
 
         .filter-item-container {
             padding: 5%;
 
             .filter-item {
-                min-width: 43%;
-                margin-bottom: 5%;
-                padding: 3% 2%;
-
-                &:nth-child(odd) {
-                    margin-right: 5%;
-                }
+                margin-bottom: 10%;
             }
         }
     }
